@@ -1,0 +1,35 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background"
+    tools:context="com.exampe.educationalgame.FullscreenActivity">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="279dp"
+        android:layout_height="103dp"
+        android:layout_gravity="center"
+        android:fontFamily="serif-monospace"
+        android:text="Circuit Brain"
+        android:textAlignment="center"
+        android:textColor="#ffffff"
+        android:textSize="40dp"
+        android:layout_marginBottom="20dp"/>
+
+    <Button
+        android:id="@+id/mainButton"
+        android:layout_width="168dp"
+        android:layout_height="72dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="90dp"
+        android:background="?attr/colorControlHighlight"
+        android:backgroundTint="@android:color/background_light"
+        android:onClick="activity1"
+        android:text="Click to play"
+        android:textColor="#ffffff"
+        android:textSize="18sp"
+        android:textStyle="italic" />
+
+
+</FrameLayout>
